@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.box{
+   height: 51px;
+}
+
+.tile-space{
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+}
+
+.tile-wall{
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+   
+}
+
+.entity-block{
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+    background: white;
+}
+
+.entity-player{
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+    /* background: url(/Assets/img/player.png); */
+    /* background: yellow; */
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+  
+    }
+    
+    .imgFlip{
+      transform: scaleX(-1);
+    }
+    
+
+.tile-goal{
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+    
+}
